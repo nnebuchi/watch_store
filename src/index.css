@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.top-nav-text{
+  font-size: 14px;
+}
+#main-nav-items .nav-link{
+  font-weight: bold!important;
+  font-size:14px;
+  color: rgb(37, 37, 37);
+}
+
+#main-nav-items .nav-link.active{
+  color: rgb(127, 173, 57);
+}
+
+.shop-counter{
+  height:15px;
+  width: 15px;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  padding: 0 2px;
+  color: white;
+  background-color: rgb(127, 173, 57);
+
 }
